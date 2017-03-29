@@ -6,5 +6,5 @@ ENV MAVAR pl
 WORKDIR /home/root/java
 RUN mkdir bin
 RUN javac -d bin /home/root/java/src/HelloWorld.java
-RUN touch moooooooooooooooooooooooooooooooooooooooo
+RUN touch mooooooooooooooooooooooooooooooooooooooo1.0o
 ENTRYPOINT ["java", "-cp", "bin", "HelloWorld"]
